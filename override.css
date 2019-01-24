@@ -3,12 +3,12 @@
 }
 . subscribe-container h2 {
     display: block;
-    font-size: 1.5em;
+    font-size: 1.5em !important;
     margin-block-start: 0.83em;
     margin-block-end: 0.83em;
     margin-inline-start: 0px;
     margin-inline-end: 0px;
-    font-weight: bold;
+    font-weight: bold !important;
 }
 .subscribe-container .subscribe-inputs-container label.error {
     font-weight: normal;
@@ -17,4 +17,14 @@
     font-size: 1.17em;
     padding: .6em 1.75em;
     border-radius: .25em;
+}
+
+.subscribe-container .prompting-text p {
+    margin: 0 !important;
+    display: block;
+    margin-block-start: 1em  !important;
+    margin-block-end: 1em  !important;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+
 }
