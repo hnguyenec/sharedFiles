@@ -1,4 +1,8 @@
-﻿.subscribe-container, .subscribe-container * {
+html {
+    font-size: 100%;
+}
+
+.subscribe-container, .subscribe-container * {
     box-sizing: unset !important;
 }
 .subscribe-container h2 {
